@@ -1,4 +1,4 @@
-public class Car {
+public class Car  implements Vehicle{
 
 
     public void drive(){
