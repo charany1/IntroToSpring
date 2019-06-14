@@ -13,6 +13,7 @@ public class Bike implements Vehicle{
     private Tyre tyre;
 
     public void drive(){
+        tyre.setBrand("CEAT");
         System.out.println("Bike "+ tyre.getBrand()+ " pe bhaag rhi he!");
     }
 }

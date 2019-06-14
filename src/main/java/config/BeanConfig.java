@@ -9,7 +9,7 @@ import vehicle.Car;
 import vehicle.Vehicle;
 
 @Configuration
-@ComponentScan("vehicle")
+@ComponentScan(basePackages = "vehicle,tyre")
 public class BeanConfig {
 
    /* @Bean
@@ -18,6 +18,7 @@ public class BeanConfig {
     }
 */
 
+/*
 
    @Bean
     public Tyre getTyre(){
@@ -25,6 +26,7 @@ public class BeanConfig {
        tyre.setBrand("MRF");
        return tyre;
    }
+*/
 
 
 }

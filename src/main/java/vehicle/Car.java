@@ -13,6 +13,7 @@ public class Car  implements Vehicle{
     private Tyre tyre;
 
     public void drive(){
+        tyre.setBrand("MRF");
         System.out.println("Car "+ tyre.getBrand() + "pe chal rhi he!");
     }
 }
