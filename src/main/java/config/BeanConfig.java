@@ -2,18 +2,20 @@ package config;
 
 
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import vehicle.Car;
 import vehicle.Vehicle;
 
 @Configuration
+@ComponentScan("vehicle")
 public class BeanConfig {
 
-    @Bean
+   /* @Bean
     public Vehicle getVehicle(){
         return new Car();
     }
-
+*/
 
 
 
